@@ -1,0 +1,33 @@
+.status {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.status.recording {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.status.processing {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.status.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

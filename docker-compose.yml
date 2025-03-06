@@ -1,0 +1,11 @@
+services:
+  redis:
+    image: redis:alpine
+    ports:
+      - '6379:6379'
+  whisper:
+    image: onerahmet/openai-whisper-asr-webservice
+    ports:
+      - '9000:9000'
+    environment:
+      ASR_MODEL: base # or 'small', 'medium', 'large' depending on your needs

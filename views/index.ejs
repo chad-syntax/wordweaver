@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio Processor</title>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script>
+      // Pass Supabase credentials to JavaScript
+      window.supabaseUrl = '<%= supabaseUrl %>';
+      window.supabaseAnonKey = '<%= supabaseAnonKey %>';
+    </script>
+    <link rel="stylesheet" href="/static/css/common.css" />
+    <link rel="stylesheet" href="/static/css/recorder.css" />
+    <script src="/static/js/auth.js"></script>
+    <script src="/static/js/recorder.js"></script>
+  </head>
+  <body>
+    <div id="header" class="header hidden">
+      <h1>Audio Processor</h1>
+      <div class="user-info">
+        <span id="userEmail"></span>
+        <button onclick="signOut()">Sign Out</button>
+      </div>
+    </div>
+
+    <div id="recorder">
+      <h2>Audio Recorder</h2>
+      <button onclick="startRecording()">Start Recording</button>
+      <button onclick="stopRecording()">Stop Recording</button>
+      <div id="status" class="status"></div>
+    </div>
+  </body>
+</html>
