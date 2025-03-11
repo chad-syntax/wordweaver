@@ -24,7 +24,11 @@ app.register(staticPlugin, {
 });
 
 // Register multipart for file uploads
-app.register(multipart);
+app.register(multipart, {
+  limits: {
+    fileSize: 1024 * 1024 * 100, // 100MB
+  },
+});
 
 // Initialize Supabase client
 const supabase = createClient(
