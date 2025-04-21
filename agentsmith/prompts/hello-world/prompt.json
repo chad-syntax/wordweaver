@@ -1,0 +1,13 @@
+{
+  "uuid": "a4aaa17c-207e-4486-a9a1-765be66ab25c",
+  "name": "Hello World",
+  "slug": "hello-world",
+  "created_at": "2025-04-21T17:06:32.162125+00:00",
+  "updated_at": "2025-04-21T17:06:32.162125+00:00",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "status": "PUBLISHED"
+    }
+  ]
+}
