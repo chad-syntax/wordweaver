@@ -5,22 +5,22 @@
     "models": [
       "qwen/qwq-32b:free"
     ],
-    "temperature": 1
+    "temperature": 0.8
   },
   "status": "PUBLISHED",
   "content": "Hello, my name is {{ name }}, please respond with the following, and only the following:\n\n- What model you are, be as specific as possible with model version number.\n- Who or what company created you, be as specific as possible with the name of the company.\n\nResponse Format:\n\nMODEL: gpt-4o\nCREATOR: OpenAI",
   "version": "0.1.1",
   "prompt_id": 12,
   "created_at": "2025-04-20T20:24:55.745085+00:00",
-  "updated_at": "2025-04-20T20:27:26.248925+00:00",
+  "updated_at": "2025-04-21T00:28:39.791263+00:00",
   "prompt_variables": [
     {
-      "id": 22,
+      "id": 23,
       "name": "name",
       "type": "STRING",
       "required": true,
-      "created_at": "2025-04-20T20:27:26.266093+00:00",
-      "updated_at": "2025-04-20T20:27:26.266093+00:00",
+      "created_at": "2025-04-21T00:28:39.808619+00:00",
+      "updated_at": "2025-04-21T00:28:39.808619+00:00",
       "prompt_version_id": 15
     }
   ]
