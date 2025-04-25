@@ -11,7 +11,11 @@
     },
     {
       "version": "0.0.2",
-      "status": "DRAFT"
+      "status": "PUBLISHED"
+    },
+    {
+      "version": "0.0.3",
+      "status": "PUBLISHED"
     }
   ]
 }
