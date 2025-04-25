@@ -1,0 +1,14 @@
+{
+  "uuid": "e4c843d2-a277-4593-964c-9683b76fe867",
+  "config": {
+    "models": [
+      "openrouter/auto"
+    ],
+    "temperature": 0.65
+  },
+  "status": "DRAFT",
+  "content": "Hi my name is {{ name }}.\n\nPlease respond with the following, and only the following:\n\n- What model you are, be as specific as possible with model version number.\n- Who or what company created you, be as specific as possible with the name of the company.\n- What my name is that I specified earlier. \n\nResponse Format:\n\nMODEL: gpt-4o\nCREATOR: OpenAI\nWHO: John",
+  "version": "0.0.5",
+  "created_at": "2025-04-25T21:18:53.504108+00:00",
+  "updated_at": "2025-04-25T21:30:55.534779+00:00"
+}
