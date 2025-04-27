@@ -1,11 +1,20 @@
 [
   {
-    "name": "name",
+    "name": "firstName",
     "type": "STRING",
-    "uuid": "df4bcff8-3f7c-4d13-bf49-01c44d1bbd06",
-    "required": false,
-    "created_at": "2025-04-25T21:18:53.509164+00:00",
-    "updated_at": "2025-04-25T21:18:53.509164+00:00",
+    "uuid": "2951ba6e-1163-4715-b057-08735a13b737",
+    "required": true,
+    "created_at": "2025-04-27T20:29:04.899097+00:00",
+    "updated_at": "2025-04-27T20:29:04.899097+00:00",
+    "default_value": null
+  },
+  {
+    "name": "lastName",
+    "type": "STRING",
+    "uuid": "4df30f6d-b141-4245-a8aa-976e84cc66e2",
+    "required": true,
+    "created_at": "2025-04-27T20:29:04.899097+00:00",
+    "updated_at": "2025-04-27T20:29:04.899097+00:00",
     "default_value": null
   }
 ]
