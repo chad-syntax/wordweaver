@@ -24,6 +24,10 @@
     {
       "version": "0.0.5",
       "status": "PUBLISHED"
+    },
+    {
+      "version": "0.1.0",
+      "status": "DRAFT"
     }
   ]
 }
