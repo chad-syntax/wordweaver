@@ -10,5 +10,5 @@
   "content": "Hi my name is {{ name }}.\n\nPlease respond with the following, and only the following:\n\n- What model you are, be as specific as possible with model version number.\n- Who or what company created you, be as specific as possible with the name of the company.\n- Who I am\n\nResponse Format:\n\nMODEL: gpt-4o\nCREATOR: OpenAI\nWHO: John",
   "version": "0.0.3",
   "created_at": "2025-04-23T00:56:27.939568+00:00",
-  "updated_at": "2025-04-25T01:36:00.298412+00:00"
+  "updated_at": "2025-04-28T12:04:52.948098+00:00"
 }
