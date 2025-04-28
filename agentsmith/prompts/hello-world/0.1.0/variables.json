@@ -2,10 +2,10 @@
   {
     "name": "currentDate",
     "type": "STRING",
-    "uuid": "d28ddef9-ede4-4891-9b90-09b3caf5e06a",
+    "uuid": "30f7cc5f-5353-49e3-8b0a-34ed04a6ba72",
     "required": true,
-    "created_at": "2025-04-28T09:43:51.000000+00:00",
-    "updated_at": "2025-04-28T09:43:51.000000+00:00",
+    "created_at": "2025-04-28T12:13:01.527451+00:00",
+    "updated_at": "2025-04-28T12:13:01.527451+00:00",
     "default_value": null
   }
 ]
