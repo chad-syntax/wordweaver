@@ -6,10 +6,6 @@
   "updated_at": "2025-04-21T17:06:32.162125+00:00",
   "versions": [
     {
-      "version": "0.1.1",
-      "status": "DRAFT"
-    },
-    {
       "version": "0.0.1",
       "status": "PUBLISHED"
     },
@@ -32,6 +28,10 @@
     {
       "version": "0.1.0",
       "status": "PUBLISHED"
+    },
+    {
+      "version": "0.1.1",
+      "status": "DRAFT"
     }
   ]
 }
