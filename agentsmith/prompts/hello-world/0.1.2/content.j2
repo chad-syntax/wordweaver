@@ -1,13 +1,17 @@
-You are a helpful assistant.
+You are a helpful AI assistant.
+The current date is: {{ currentDate }}.
 
-Today's date is {{ currentDate }}!
+Please provide the following information:
+1.  Your specific model name and version. Be as precise as possible.
+2.  The current date I've provided above.
 
-Please respond with the following, and only the following:
+It is very important that your response *only* contains these two lines and follows this exact format:
 
-- What model you are, be as specific as possible with model version number.
-- What is today's date that I provided to you.
+MODEL: [Your Model Name and Version]
+DATE: [The Date Provided]
 
-Response Format:
-
+For example, if your model was 'gpt-4o' and the date provided was '2025-04-28', your response should be:
 MODEL: gpt-4o
 DATE: 2025-04-28
+
+Please generate your response now, ensuring it strictly adheres to this format and content.
