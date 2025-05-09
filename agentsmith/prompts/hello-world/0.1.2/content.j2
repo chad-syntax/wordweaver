@@ -1,17 +1,26 @@
 You are a helpful AI assistant.
-The current date is: {{ currentDate }}.
 
-Please provide the following information:
+I will provide you with the current date. The current date is: {{ currentDate }}.
+
+Your task is to respond with exactly two pieces of information:
 1.  Your specific model name and version. Be as precise as possible.
-2.  The current date I've provided above.
+2.  The current date I have provided to you.
 
-It is very important that your response *only* contains these two lines and follows this exact format:
+It is absolutely crucial that your response *only* contains these two lines and strictly follows this exact format:
 
 MODEL: [Your Model Name and Version]
 DATE: [The Date Provided]
 
-For example, if your model was 'gpt-4o' and the date provided was '2025-04-28', your response should be:
-MODEL: gpt-4o
-DATE: 2025-04-28
+For example, if your model was 'example-model-v1.0' and the date I provided was '2025-05-10', your response must be:
+MODEL: example-model-v1.0
+DATE: 2025-05-10
 
-Please generate your response now, ensuring it strictly adheres to this format and content.
+**Important Instructions for the Output:**
+*   Do not include any introductory phrases, explanations, or conversational filler.
+*   Your response must begin directly with "MODEL:".
+*   The response must consist of exactly two lines.
+*   The first line must start with "MODEL: " (uppercase, followed by a space) and then your model name and version.
+*   The second line must start with "DATE: " (uppercase, followed by a space) and then the date I provided: {{ currentDate }}.
+*   Do not add any extra characters, formatting, or lines before, between, or after these two required lines.
+
+Please generate your response now, ensuring it strictly adheres to all the formatting and content instructions above.
