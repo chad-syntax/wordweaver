@@ -3,39 +3,5 @@
   "name": "Hello World",
   "slug": "hello-world",
   "created_at": "2025-04-21T17:06:32.162125+00:00",
-  "updated_at": "2025-05-09T16:01:03.553179+00:00",
-  "versions": [
-    {
-      "version": "0.0.1",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.1.1",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.0.2",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.0.3",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.0.4",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.0.5",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.1.0",
-      "status": "PUBLISHED"
-    },
-    {
-      "version": "0.1.2",
-      "status": "DRAFT"
-    }
-  ]
+  "updated_at": "2025-05-09T16:01:03.553179+00:00"
 }
