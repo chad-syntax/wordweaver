@@ -1,4 +1,5 @@
 {
   "currentDate": "now()",
-  "supportEmail": "support@agentsmith.app"
+  "supportEmail": "support@agentsmith.app",
+  "supportWebsite": "https://help.agensmith.app"
 }
