@@ -1,4 +1,5 @@
 {
+  "foo": "bar",
   "companyName": "Agentsmith",
   "currentDate": "now()",
   "supportEmail": "support@agentsmith.app",
