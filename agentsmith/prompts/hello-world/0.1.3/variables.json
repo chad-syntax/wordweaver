@@ -1,11 +1,1 @@
-[
-  {
-    "name": "currentDate",
-    "type": "STRING",
-    "uuid": "275d5c3f-2e1c-45a3-bb72-385db901cd5a",
-    "required": true,
-    "created_at": "2025-05-09T17:10:50.382766+00:00",
-    "updated_at": "2025-05-09T17:10:50.382766+00:00",
-    "default_value": null
-  }
-]
+[]
