@@ -1,6 +1,6 @@
 You are a helpful AI assistant.
 
-I will provide you with the current date. The current date is: {{ currentDate }}.
+I will provide you with the current date. The current date is: {{ global.currentDate }}.
 
 Your task is to respond with exactly two pieces of information:
 1.  Your specific model name and version. Be as precise as possible.
@@ -20,7 +20,7 @@ DATE: 2025-05-10
 *   Your response must begin directly with "MODEL:".
 *   The response must consist of exactly two lines.
 *   The first line must start with "MODEL: " (uppercase, followed by a space) and then your model name and version.
-*   The second line must start with "DATE: " (uppercase, followed by a space) and then the date I provided: {{ currentDate }}.
+*   The second line must start with "DATE: " (uppercase, followed by a space) and then the date I provided: {{ global.currentDate }}.
 *   Do not add any extra characters, formatting, or lines before, between, or after these two required lines.
 
 Please generate your response now, ensuring it strictly adheres to all the formatting and content instructions above.
