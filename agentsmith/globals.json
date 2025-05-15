@@ -1,7 +1,7 @@
 {
-  "foo": "bar",
+  "docsUrl": "https://agentsmith.app/docs",
+  "supportUrl": "https://help.agensmith.app",
   "companyName": "Agentsmith",
   "currentDate": "now()",
-  "supportEmail": "support@agentsmith.app",
-  "supportWebsite": "https://help.agensmith.app"
+  "supportEmail": "support@agentsmith.app"
 }
