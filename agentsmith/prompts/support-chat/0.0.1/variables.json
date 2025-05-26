@@ -2,10 +2,10 @@
   {
     "name": "userMessage",
     "type": "STRING",
-    "uuid": "b0892ee4-8d4c-44ad-9e0c-40960150d81e",
+    "uuid": "dd951b74-a4f5-4590-9978-c60141730651",
     "required": true,
-    "created_at": "2025-05-26T14:33:19.622049+00:00",
-    "updated_at": "2025-05-26T14:33:19.622049+00:00",
+    "created_at": "2025-05-26T15:27:09.454102+00:00",
+    "updated_at": "2025-05-26T15:27:09.454102+00:00",
     "default_value": null
   }
 ]
