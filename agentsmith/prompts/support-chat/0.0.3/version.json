@@ -1,0 +1,13 @@
+{
+  "uuid": "bf0d285f-333b-41e4-8dbc-ca21aa22585c",
+  "config": {
+    "models": [
+      "anthropic/claude-sonnet-4"
+    ],
+    "temperature": 0.5
+  },
+  "status": "PUBLISHED",
+  "version": "0.0.3",
+  "created_at": "2025-05-26T17:01:23.777225+00:00",
+  "updated_at": "2025-05-26T17:02:41.941808+00:00"
+}
