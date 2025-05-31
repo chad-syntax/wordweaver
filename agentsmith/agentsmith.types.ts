@@ -21,8 +21,9 @@ export type Agency = {
             name: 'Hello World';
             slug: 'hello-world';
             versions: {
-                'latest': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string; variables: {} };
-                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string; variables: {} }
+                'latest': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
+                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
+                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
             }
         }
     };
