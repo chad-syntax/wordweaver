@@ -1,0 +1,11 @@
+[
+  {
+    "name": "transcription",
+    "type": "STRING",
+    "uuid": "2478454c-5a31-443a-afb7-2792470684fc",
+    "required": true,
+    "created_at": "2025-06-03T19:45:10.462959+00:00",
+    "updated_at": "2025-06-03T19:45:10.462959+00:00",
+    "default_value": null
+  }
+]
