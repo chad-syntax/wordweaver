@@ -1,0 +1,11 @@
+[
+  {
+    "name": "claims",
+    "type": "JSON",
+    "uuid": "451cb297-30dd-44df-bfbe-adf9021d3c88",
+    "required": true,
+    "created_at": "2025-06-03T19:46:10.368608+00:00",
+    "updated_at": "2025-06-03T19:46:10.368608+00:00",
+    "default_value": null
+  }
+]
