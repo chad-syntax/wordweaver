@@ -39,6 +39,7 @@ export type Agency = {
             slug: 'outline-formatter';
             versions: {
                 'latest': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } };
+                '0.0.2': { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: any; content: string; variables: { 'transcript': string; 'citations': string; 'foo': string } };
                 '0.0.1': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } }
             }
         }
