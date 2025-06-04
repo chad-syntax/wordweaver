@@ -31,6 +31,8 @@ const worker = new Worker<AudioJob>(
       //   job_id: job.id,
       // });
 
+      // foo
+
       console.log('Transcription:', transcription);
 
       // this is where we would run the transcript cleanup prompt
