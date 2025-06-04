@@ -20,7 +20,8 @@
     "bullmq": "^5.41.7",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "fastify": "^5.2.1"
+    "fastify": "^5.2.1",
+    "@agentsmith/sdk": "git+ssh://git@github.com/chad-syntax/agentsmith.git#sdk-release-staging@0.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.13.9",
