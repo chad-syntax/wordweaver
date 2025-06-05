@@ -42,6 +42,27 @@ export type Agency = {
                 '0.0.2': { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: any; content: string; variables: { 'transcript': string; 'citations': string; 'foo': string } };
                 '0.0.1': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } }
             }
+        };
+        'hello-world': {
+            uuid: '64f84ae7-87be-4d1d-8dc2-95bfa0f829f5';
+            name: 'Hello World';
+            slug: 'hello-world';
+            versions: {
+                'latest': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
+                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
+            }
+        };
+        'support-chat': {
+            uuid: '8664d0bb-bd6e-4be3-8c3a-3bbef07f6e38';
+            name: 'Support Chat';
+            slug: 'support-chat';
+            versions: {
+                'latest': { uuid: '5d714a31-3e65-4b19-b6c6-12aaa274f417'; version: '0.1.0'; config: any; content: string; variables: { 'userMessage': string } };
+                '0.1.0': { uuid: '5d714a31-3e65-4b19-b6c6-12aaa274f417'; version: '0.1.0'; config: any; content: string; variables: { 'userMessage': string } };
+                '0.0.1': { uuid: '55b88216-c8f1-4b1c-9bac-2b92a54f2ff4'; version: '0.0.1'; config: any; content: string; variables: { 'userMessage': string } }
+            }
         }
     };
     globals: {}
