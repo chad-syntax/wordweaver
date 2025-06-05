@@ -7,44 +7,55 @@
 export type Agency = {
     prompts: {
         'transcript-cleanup': {
-            uuid: 'd6ae3351-719f-440c-8b7f-0fa36e5ea26b';
+            uuid: '902301a8-0a99-483a-9c9e-020a89cf6e62';
             name: 'Transcript Cleanup';
             slug: 'transcript-cleanup';
             versions: {
-                'latest': { uuid: 'cce2f16a-3d4e-4162-9c7a-3b6837e4ab66'; version: '0.0.1'; config: any; content: string; variables: { 'transcription': string } };
-                '0.0.1': { uuid: 'cce2f16a-3d4e-4162-9c7a-3b6837e4ab66'; version: '0.0.1'; config: any; content: string; variables: { 'transcription': string } }
+                'latest': { uuid: '45851eca-a94c-4ff8-bc68-468bcfaf17f9'; version: '0.0.1'; config: any; content: string; variables: { 'transcription': string } };
+                '0.0.1': { uuid: '45851eca-a94c-4ff8-bc68-468bcfaf17f9'; version: '0.0.1'; config: any; content: string; variables: { 'transcription': string } }
             }
         };
         'claim-extraction': {
-            uuid: '5be43559-720f-446a-9c34-51caa5c8e4fc';
+            uuid: '78e20565-75de-4bf9-a54d-444727d66eed';
             name: 'Claim Extraction';
             slug: 'claim-extraction';
             versions: {
-                'latest': { uuid: '6ffb5441-31db-481c-967a-3169b6ad9820'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string } };
-                '0.0.1': { uuid: '6ffb5441-31db-481c-967a-3169b6ad9820'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string } }
+                'latest': { uuid: 'ba1ae2d1-36e1-4383-b851-2d650aafa134'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string } };
+                '0.0.1': { uuid: 'ba1ae2d1-36e1-4383-b851-2d650aafa134'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string } }
             }
         };
         'supporting-citations-search': {
-            uuid: '4a53823f-df8b-483e-a571-cf25b3c87cb1';
+            uuid: '6bb78908-1994-4257-a550-3a5d51ff3da4';
             name: 'Supporting Citations Search';
             slug: 'supporting-citations-search';
             versions: {
-                'latest': { uuid: '7969e4fe-c6b1-4cb1-8d93-d5805ab49b52'; version: '0.0.1'; config: any; content: string; variables: { 'claims': any } };
-                '0.0.1': { uuid: '7969e4fe-c6b1-4cb1-8d93-d5805ab49b52'; version: '0.0.1'; config: any; content: string; variables: { 'claims': any } }
+                'latest': { uuid: '5a3ae250-95d8-44b9-ae88-13711e96d6b1'; version: '0.0.1'; config: any; content: string; variables: { 'claims': any } };
+                '0.0.1': { uuid: '5a3ae250-95d8-44b9-ae88-13711e96d6b1'; version: '0.0.1'; config: any; content: string; variables: { 'claims': any } }
             }
         };
         'outline-formatter': {
-            uuid: 'dbd8c56d-48a3-4f6f-9258-740d1eb25e31';
+            uuid: '7bac2850-7c48-44f1-99a0-b76e371d96d9';
             name: 'Outline Formatter';
             slug: 'outline-formatter';
             versions: {
-                'latest': { uuid: 'f2164569-c039-4a22-ab09-1a14febb9ee5'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } };
-                '0.0.2': { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: any; content: string; variables: { 'transcript': string; 'citations': string; 'foo': string } };
-                '0.0.1': { uuid: 'f2164569-c039-4a22-ab09-1a14febb9ee5'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } }
+                'latest': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } };
+                '0.0.2': { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: any; content: string; variables: { 'transcript': string; 'citations': string } };
+                '0.0.1': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } }
+            }
+        };
+        'hello-world': {
+            uuid: '64f84ae7-87be-4d1d-8dc2-95bfa0f829f5';
+            name: 'Hello World';
+            slug: 'hello-world';
+            versions: {
+                'latest': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
+                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
             }
         };
         'support-chat': {
-            uuid: '33c3c066-be82-4f15-9415-390bae2def53';
+            uuid: '8664d0bb-bd6e-4be3-8c3a-3bbef07f6e38';
             name: 'Support Chat';
             slug: 'support-chat';
             versions: {
@@ -52,23 +63,7 @@ export type Agency = {
                 '0.1.0': { uuid: '5d714a31-3e65-4b19-b6c6-12aaa274f417'; version: '0.1.0'; config: any; content: string; variables: { 'userMessage': string } };
                 '0.0.1': { uuid: '55b88216-c8f1-4b1c-9bac-2b92a54f2ff4'; version: '0.0.1'; config: any; content: string; variables: { 'userMessage': string } }
             }
-        };
-        'hello-world': {
-            uuid: '5b3a72a5-4af6-4670-a18f-0ce43035dce4';
-            name: 'Hello World';
-            slug: 'hello-world';
-            versions: {
-                'latest': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
-                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
-                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
-                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
-            }
         }
     };
-    globals: {
-        'gitHubUrl': 'https://github.com/chad-syntax/agentsmith';
-        'supportUrl': 'https://agentsmith.app/support';
-        'companyName': 'Agentsmith';
-        'supportEmail': 'support@agentsmith.app'
-    }
+    globals: {}
 };
