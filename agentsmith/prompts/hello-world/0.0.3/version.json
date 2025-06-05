@@ -1,9 +1,7 @@
 {
   "uuid": "3f4b61f0-179a-4b93-b0f4-0e1f64b42d04",
   "config": {
-    "models": [
-      "openrouter/auto"
-    ],
+    "models": ["microsoft/phi-4-reasoning-plus:free"],
     "temperature": 1
   },
   "status": "PUBLISHED",
