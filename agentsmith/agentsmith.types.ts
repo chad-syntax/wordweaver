@@ -66,7 +66,7 @@ export type Agency = {
         }
     };
     globals: {
-        'gitHubUrl': 'https://github.com/chad-syntax/agentsmithz';
+        'gitHubUrl': 'https://github.com/chad-syntax/agentsmith';
         'supportUrl': 'https://agentsmith.app/support';
         'companyName': 'Agentsmith';
         'supportEmail': 'support@agentsmith.app'
