@@ -33,20 +33,6 @@ const worker = new Worker<AudioJob>(
 
       console.log('Transcription:', transcription);
 
-      // this is where we would run the transcript cleanup prompt
-      // const agentsmithClient = new AgentsmithClient({
-      //   apiKey: process.env.AGENTSMITH_API_KEY || '',
-      // });
-
-      // const result = await agentsmithClient.execute({
-      //   prompt: 'transcript-cleanup',
-      //   variables: {
-      //     transcription,
-      //   },
-      // });
-
-      // then we would run the other prompts, tbd
-
       const apiKey = process.env.AGENTSMITH_API_KEY!;
       const projectId = 'c2c63d0a-5225-4c86-97a5-66549ccaaddf';
 
@@ -98,26 +84,12 @@ const worker = new Worker<AudioJob>(
         supportingCitationsSearchCompletion.completion.choices[0].message
           .content;
 
-      // const annotations =
-      //   supportingCitationsSearchCompletion.completion.choices[0].message
-      //     .annotations;
-
-      // const supportingCitationsVerifierPrompt = await client.getPrompt(
-      //   'supporting-citations-verifier'
-      // );
-
-      // const supportingCitationsVerifierCompletion =
-      //   await supportingCitationsVerifierPrompt.execute({
-      //     citationContent,
-      //     annotations,
-      //   });
-
       if (!citationContent) {
         throw new Error('Failed to search for supporting citations');
       }
 
       const outlineFormatterPrompt = await client.getPrompt(
-        'outline-formatter'
+        'outline-formatter@0.0.2'
       );
 
       const outlineFormatterCompletion = await outlineFormatterPrompt.execute({
