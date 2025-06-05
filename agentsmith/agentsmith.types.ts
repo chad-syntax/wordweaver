@@ -63,6 +63,15 @@ export type Agency = {
                 '0.1.0': { uuid: '5d714a31-3e65-4b19-b6c6-12aaa274f417'; version: '0.1.0'; config: any; content: string; variables: { 'userMessage': string } };
                 '0.0.1': { uuid: '55b88216-c8f1-4b1c-9bac-2b92a54f2ff4'; version: '0.0.1'; config: any; content: string; variables: { 'userMessage': string } }
             }
+        };
+        'post-writer': {
+            uuid: 'f97ffb9e-672f-4a0f-a158-b0c1c7d8e64f';
+            name: 'Post Writer';
+            slug: 'post-writer';
+            versions: {
+                'latest': { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: any; content: string; variables: { 'outline': string } };
+                '0.0.1': { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: any; content: string; variables: { 'outline': string } }
+            }
         }
     };
     globals: {}
