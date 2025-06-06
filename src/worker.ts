@@ -89,7 +89,7 @@ const worker = new Worker<AudioJob>(
       }
 
       const outlineFormatterPrompt = await client.getPrompt(
-        'outline-formatter@0.0.2'
+        'outline-formatter'
       );
 
       const outlineFormatterCompletion = await outlineFormatterPrompt.execute({
@@ -101,6 +101,20 @@ const worker = new Worker<AudioJob>(
         outlineFormatterCompletion.completion.choices[0].message.content;
 
       console.log('Outline:', outline);
+
+      const postWriterPrompt = await client.getPrompt('post-writer');
+
+      if (!outline) {
+        throw new Error('Failed to format outline');
+      }
+
+      const postWriterCompletion = await postWriterPrompt.execute({
+        outline,
+      });
+
+      const post = postWriterCompletion.completion.choices[0].message.content;
+
+      console.log('Final Post:', post);
 
       // const apiKey = 'sdk_**';
 
