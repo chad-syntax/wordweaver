@@ -1,0 +1,20 @@
+[
+  {
+    "name": "transcript",
+    "type": "STRING",
+    "uuid": "da7001eb-dd4c-4212-8275-c867ad94cffe",
+    "required": true,
+    "created_at": "2025-06-04T19:47:48.815045+00:00",
+    "updated_at": "2025-06-04T19:47:48.815045+00:00",
+    "default_value": null
+  },
+  {
+    "name": "citations",
+    "type": "STRING",
+    "uuid": "fd3d05e0-e4e4-4dab-9fab-0b9fcefb3c28",
+    "required": true,
+    "created_at": "2025-06-04T19:47:48.815045+00:00",
+    "updated_at": "2025-06-04T19:47:48.815045+00:00",
+    "default_value": null
+  }
+]
