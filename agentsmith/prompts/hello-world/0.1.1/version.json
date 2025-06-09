@@ -2,12 +2,12 @@
   "uuid": "17737999-4131-49ff-a608-33a4fde5b38a",
   "config": {
     "models": [
-      "openrouter/auto"
+      "mistralai/mistral-7b-instruct-v0.2"
     ],
     "temperature": 0.75
   },
   "status": "PUBLISHED",
   "version": "0.1.1",
   "created_at": "2025-06-09T19:01:33.430615+00:00",
-  "updated_at": "2025-06-09T19:01:37.924266+00:00"
+  "updated_at": "2025-06-09T19:02:51.474378+00:00"
 }
