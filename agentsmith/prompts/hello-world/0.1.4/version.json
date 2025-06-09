@@ -1,0 +1,13 @@
+{
+  "uuid": "7956a77c-14d8-45dc-be5a-f530205bb905",
+  "config": {
+    "models": [
+      "mistralai/mistral-7b-instruct-v0.2"
+    ],
+    "temperature": 0.5
+  },
+  "status": "PUBLISHED",
+  "version": "0.1.4",
+  "created_at": "2025-06-09T19:09:34.89583+00:00",
+  "updated_at": "2025-06-09T19:10:20.994365+00:00"
+}
