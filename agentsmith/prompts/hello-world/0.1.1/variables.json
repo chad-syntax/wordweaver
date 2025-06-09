@@ -1,0 +1,20 @@
+[
+  {
+    "name": "firstName",
+    "type": "STRING",
+    "uuid": "4f7f58d2-8781-4ddf-b5d3-9aa74753ae39",
+    "required": true,
+    "created_at": "2025-06-09T18:56:50.663711+00:00",
+    "updated_at": "2025-06-09T18:56:50.663711+00:00",
+    "default_value": null
+  },
+  {
+    "name": "lastName",
+    "type": "STRING",
+    "uuid": "925cd0dc-34aa-4cb7-abe3-617550af2b6c",
+    "required": true,
+    "created_at": "2025-06-09T18:56:50.663711+00:00",
+    "updated_at": "2025-06-09T18:56:50.663711+00:00",
+    "default_value": null
+  }
+]
