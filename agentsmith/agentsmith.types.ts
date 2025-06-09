@@ -11,7 +11,8 @@ export type Agency = {
             name: 'Hello World';
             slug: 'hello-world';
             versions: {
-                'latest': { uuid: '17737999-4131-49ff-a608-33a4fde5b38a'; version: '0.1.1'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                'latest': { uuid: '4958610e-55d7-479c-a8f6-21b2f8df72ed'; version: '0.1.2'; config: any; content: string };
+                '0.1.2': { uuid: '4958610e-55d7-479c-a8f6-21b2f8df72ed'; version: '0.1.2'; config: any; content: string };
                 '0.1.1': { uuid: '17737999-4131-49ff-a608-33a4fde5b38a'; version: '0.1.1'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
                 '0.1.0': { uuid: '1e188844-4eb4-4662-9659-c9be9365b623'; version: '0.1.0'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
                 '0.0.1': { uuid: '65b6b2ac-ed1f-46ff-b87d-0f30ffda60be'; version: '0.0.1'; config: any; content: string; variables: { 'name': string } }
