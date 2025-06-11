@@ -12,6 +12,7 @@ export type Agency = {
             slug: 'hello-world';
             versions: {
                 'latest': { uuid: '7956a77c-14d8-45dc-be5a-f530205bb905'; version: '0.1.4'; config: any; content: string; variables: { 'name': string } };
+                '0.1.5': { uuid: '06128c52-6e1a-4b69-a864-9d8a3e8ada71'; version: '0.1.5'; config: any; content: string; variables: { 'name': string } };
                 '0.1.4': { uuid: '7956a77c-14d8-45dc-be5a-f530205bb905'; version: '0.1.4'; config: any; content: string; variables: { 'name': string } };
                 '0.1.3': { uuid: '609608a1-099a-4686-bba5-0f531fa2ed79'; version: '0.1.3'; config: any; content: string; variables: { 'name': string } };
                 '0.1.2': { uuid: '4958610e-55d7-479c-a8f6-21b2f8df72ed'; version: '0.1.2'; config: any; content: string };
