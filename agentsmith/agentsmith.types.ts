@@ -19,5 +19,5 @@ export type Agency = {
             }
         }
     };
-    globals: {}
+    globals: { 'company': 'Agentsmith' }
 };
