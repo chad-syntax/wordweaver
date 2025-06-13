@@ -2,12 +2,12 @@
   "uuid": "22476b84-e481-436f-92a2-e58a96e62da9",
   "config": {
     "models": [
-      "cohere/command-r"
+      "openrouter/auto"
     ],
-    "temperature": 0.75
+    "temperature": 1
   },
   "status": "DRAFT",
   "version": "0.1.0",
   "created_at": "2025-06-12T21:22:53.635189+00:00",
-  "updated_at": "2025-06-12T21:23:33.985847+00:00"
+  "updated_at": "2025-06-13T18:22:44.859912+00:00"
 }
