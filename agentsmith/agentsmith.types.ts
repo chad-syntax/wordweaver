@@ -43,19 +43,6 @@ export type Agency = {
                 '0.0.1': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: any; content: string; variables: { 'transcript': string; 'citations': string } }
             }
         };
-        'hello-world': {
-            uuid: '64f84ae7-87be-4d1d-8dc2-95bfa0f829f5';
-            name: 'Hello World';
-            slug: 'hello-world';
-            versions: {
-                'latest': { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
-                '0.1.1': { uuid: '2b909ea9-ba78-41cb-8c7d-a93f59555324'; version: '0.1.1'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
-                '0.1.0': { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
-                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
-                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
-                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
-            }
-        };
         'support-chat': {
             uuid: '8664d0bb-bd6e-4be3-8c3a-3bbef07f6e38';
             name: 'Support Chat';
@@ -73,6 +60,19 @@ export type Agency = {
             versions: {
                 'latest': { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: any; content: string; variables: { 'outline': string } };
                 '0.0.1': { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: any; content: string; variables: { 'outline': string } }
+            }
+        };
+        'hello-world': {
+            uuid: '64f84ae7-87be-4d1d-8dc2-95bfa0f829f5';
+            name: 'Hello World';
+            slug: 'hello-world';
+            versions: {
+                'latest': { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.1.1': { uuid: '2b909ea9-ba78-41cb-8c7d-a93f59555324'; version: '0.1.1'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.1.0': { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: any; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: any; content: string; variables: { 'name': string } };
+                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: any; content: string }
             }
         }
     };
