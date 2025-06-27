@@ -1,0 +1,20 @@
+[
+  {
+    "name": "situation",
+    "type": "STRING",
+    "uuid": "4722fd9d-3e00-4acd-aaa8-5afb25e4eb48",
+    "required": true,
+    "created_at": "2025-06-27T00:35:29.495681+00:00",
+    "updated_at": "2025-06-27T00:35:29.495681+00:00",
+    "default_value": null
+  },
+  {
+    "name": "action",
+    "type": "STRING",
+    "uuid": "01a02270-a699-477f-98d0-8a456c11ce33",
+    "required": true,
+    "created_at": "2025-06-27T00:35:29.495681+00:00",
+    "updated_at": "2025-06-27T00:35:29.495681+00:00",
+    "default_value": null
+  }
+]
