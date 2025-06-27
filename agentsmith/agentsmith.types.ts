@@ -11,7 +11,7 @@ export type Agency = {
             name: 'Hello World';
             slug: 'hello-world';
             versions: {
-    ;
+
                 '0.0.1': { uuid: '1d2234f4-0a0e-4cb5-854e-5c460b2a18a7'; version: '0.0.1'; config: any; content: string; variables: { 'situation': string; 'action': string } }
             }
         }
