@@ -14,6 +14,15 @@ export type Agency = {
                 latest: never;
                 '0.0.1': { uuid: '1d2234f4-0a0e-4cb5-854e-5c460b2a18a7'; version: '0.0.1'; config: any; content: string; variables: { 'situation': string; 'action': string } }
             }
+        };
+        'hello-world-2': {
+            uuid: '7ebb3477-5076-4996-93cc-eb02220fd91e';
+            name: 'Hello World 2';
+            slug: 'hello-world-2';
+            versions: {
+                'latest': { uuid: '2529caeb-19c3-4706-a241-16a8c21f1487'; version: '0.0.1'; config: any; content: string };
+                '0.0.1': { uuid: '2529caeb-19c3-4706-a241-16a8c21f1487'; version: '0.0.1'; config: any; content: string }
+            }
         }
     };
     globals: {}
