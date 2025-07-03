@@ -7,23 +7,81 @@
 export type Agency = {
     prompts: {
         'hello-world': {
-            uuid: 'a7d88df8-7552-4a79-b14a-6fedb8884475';
+            uuid: '64f84ae7-87be-4d1d-8dc2-95bfa0f829f5';
             name: 'Hello World';
             slug: 'hello-world';
             versions: {
-                latest: never;
-                '0.0.1': { uuid: '1d2234f4-0a0e-4cb5-854e-5c460b2a18a7'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 0.9 }; content: string; variables: { situation: string; action: string } }
+                latest: { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: { "models": ["mistralai/ministral-3b"], "temperature": 0 }; content: string; variables: { 'firstName': string; 'lastName': string } };
+                '0.1.1': { uuid: '2b909ea9-ba78-41cb-8c7d-a93f59555324'; version: '0.1.1'; config: { "models": ["cohere/command-r"], "temperature": 0 }; content: string; variables: { firstName: string; lastName: string } };
+                '0.1.0': { uuid: 'a1945585-d4ba-4344-a4bf-258a4adf7262'; version: '0.1.0'; config: { "models": ["mistralai/ministral-3b"], "temperature": 0 }; content: string; variables: { firstName: string; lastName: string } };
+                '0.0.3': { uuid: '3f4b61f0-179a-4b93-b0f4-0e1f64b42d04'; version: '0.0.3'; config: { "models": ["cohere/command-r"], "temperature": 0 }; content: string; variables: { firstName: string; lastName: string } };
+                '0.0.2': { uuid: '4d2bdcb8-d8f9-4a32-ba1e-ffd8d9acf06a'; version: '0.0.2'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { name: string } };
+                '0.0.1': { uuid: 'aac26f05-3d14-45a6-bded-0c8de072f796'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string }
             }
         };
         'hello-world-2': {
-            uuid: '7ebb3477-5076-4996-93cc-eb02220fd91e';
+            uuid: '68ae6bfe-7b78-48f2-8e0f-96bda17dd757';
             name: 'Hello World 2';
             slug: 'hello-world-2';
             versions: {
-                latest: { uuid: '232ccd03-4ab7-42cd-9ae7-e445e6079c07'; version: '0.0.3'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
-                '0.0.3': { uuid: '232ccd03-4ab7-42cd-9ae7-e445e6079c07'; version: '0.0.3'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
-                '0.0.2': { uuid: '7fd45551-7964-4591-8336-55cdbd918b08'; version: '0.0.2'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
+                latest: never;
                 '0.0.1': { uuid: '2529caeb-19c3-4706-a241-16a8c21f1487'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string }
+            }
+        };
+        'transcript-cleanup': {
+            uuid: '902301a8-0a99-483a-9c9e-020a89cf6e62';
+            name: 'Transcript Cleanup';
+            slug: 'transcript-cleanup';
+            versions: {
+                latest: { uuid: '45851eca-a94c-4ff8-bc68-468bcfaf17f9'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { 'transcription': string } };
+                '0.0.1': { uuid: '45851eca-a94c-4ff8-bc68-468bcfaf17f9'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { transcription: string } }
+            }
+        };
+        'supporting-citations-search': {
+            uuid: '6bb78908-1994-4257-a550-3a5d51ff3da4';
+            name: 'Supporting Citations Search';
+            slug: 'supporting-citations-search';
+            versions: {
+                latest: { uuid: '5a3ae250-95d8-44b9-ae88-13711e96d6b1'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "plugins": [{ "id": "web" }], "temperature": 1 }; content: string; variables: { 'claims': any } };
+                '0.0.1': { uuid: '5a3ae250-95d8-44b9-ae88-13711e96d6b1'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "plugins": [{ "id": "web" }], "temperature": 1 }; content: string; variables: { claims: any } }
+            }
+        };
+        'outline-formatter': {
+            uuid: '7bac2850-7c48-44f1-99a0-b76e371d96d9';
+            name: 'Outline Formatter';
+            slug: 'outline-formatter';
+            versions: {
+                latest: { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { 'transcript': string; 'citations': string } };
+                '0.0.2': { uuid: '4dd8e414-3deb-470c-bd75-cdc250d3c0ed'; version: '0.0.2'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { transcript: string; citations: string } };
+                '0.0.1': { uuid: '79571027-eb35-4493-afa3-e4451ec2ef74'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { transcript: string; citations: string } }
+            }
+        };
+        'claim-extraction': {
+            uuid: '78e20565-75de-4bf9-a54d-444727d66eed';
+            name: 'Claim Extraction';
+            slug: 'claim-extraction';
+            versions: {
+                latest: never;
+                '0.0.1': { uuid: 'ba1ae2d1-36e1-4383-b851-2d650aafa134'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 0.5 }; content: string; variables: { transcript: string } }
+            }
+        };
+        'support-chat': {
+            uuid: '8664d0bb-bd6e-4be3-8c3a-3bbef07f6e38';
+            name: 'Support Chat';
+            slug: 'support-chat';
+            versions: {
+                latest: never;
+                '0.1.0': { uuid: '5d714a31-3e65-4b19-b6c6-12aaa274f417'; version: '0.1.0'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { userMessage: string } };
+                '0.0.1': { uuid: '55b88216-c8f1-4b1c-9bac-2b92a54f2ff4'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { userMessage: string } }
+            }
+        };
+        'post-writer': {
+            uuid: 'f97ffb9e-672f-4a0f-a158-b0c1c7d8e64f';
+            name: 'Post Writer';
+            slug: 'post-writer';
+            versions: {
+                latest: { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { 'outline': string } };
+                '0.0.1': { uuid: '2a1b3478-c23f-4dd0-9e32-0090b2e524fb'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "temperature": 1 }; content: string; variables: { outline: string } }
             }
         }
     };
