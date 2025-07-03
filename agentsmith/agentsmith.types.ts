@@ -20,7 +20,9 @@ export type Agency = {
             name: 'Hello World 2';
             slug: 'hello-world-2';
             versions: {
-                latest: { uuid: '2529caeb-19c3-4706-a241-16a8c21f1487'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
+                latest: { uuid: '232ccd03-4ab7-42cd-9ae7-e445e6079c07'; version: '0.0.3'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
+                '0.0.3': { uuid: '232ccd03-4ab7-42cd-9ae7-e445e6079c07'; version: '0.0.3'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
+                '0.0.2': { uuid: '7fd45551-7964-4591-8336-55cdbd918b08'; version: '0.0.2'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string };
                 '0.0.1': { uuid: '2529caeb-19c3-4706-a241-16a8c21f1487'; version: '0.0.1'; config: { "models": ["openrouter/auto"], "stream": true, "temperature": 1 }; content: string }
             }
         }
