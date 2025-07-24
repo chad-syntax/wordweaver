@@ -1,0 +1,11 @@
+[
+  {
+    "name": "outline",
+    "type": "STRING",
+    "uuid": "a49c3e20-a019-4b19-a14a-9f964094c06c",
+    "required": true,
+    "created_at": "2025-06-05T23:35:08.252792+00:00",
+    "updated_at": "2025-06-05T23:35:08.252792+00:00",
+    "default_value": null
+  }
+]
