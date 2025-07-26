@@ -1,5 +1,3 @@
-Hi my name is {{ firstName }}, {{ lastName }}, asd
-
 **Strict Instructions for AI Model Identification**
 
 Your task is to provide specific information about yourself. You MUST follow these instructions precisely.
@@ -13,18 +11,20 @@ Your task is to provide specific information about yourself. You MUST follow the
 
 You MUST provide your response in the following format, and ONLY this format. Do not add any other text, explanations, or conversational elements.
 
-```
+<format>
 MODEL: [Your Exact Model Name and Version Number Here]
 CREATOR: [Full Name of Your Creating Company Here]
-```
+LINK: [Link to Your Creating Company Website]
+</format>
 
 **Example (DO NOT COPY THIS EXAMPLE, use your own information):**
 
-```
+<example_response>
 MODEL: gpt-4o
 CREATOR: OpenAI
-```
+LINK: [openai.com](https://openai.com)
+</example_response>
 
 **Your Response:**
 
-Begin your response *immediately* with "MODEL:", followed by your model information. Then, on a new line, begin with "CREATOR:", followed by your creator information. Do not include any text before "MODEL:" or after the creator information.
+Begin your response *immediately* with "MODEL:", followed by your model information. Then, on a new line, begin with "CREATOR:", followed by your creator information. Then, on a new line, begin with "LINK:", followed by a link to your creator's website in markdown syntax. Do not include any text or characters before "MODEL:" or after the link information.
