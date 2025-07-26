@@ -12,15 +12,16 @@ export type PromptVariables__hello_world__0_0_3 = {
 export type PromptVariables__hello_world__0_0_2 = {
   name: string;
 };
-export type PromptVariables__hello_world__0_1_1 = {
-  firstName: string;
-  lastName: string;
-};
+export type PromptVariables__hello_world__0_1_1 = never;
 export type PromptVariables__hello_world__0_1_0 = {
   firstName: string;
   lastName: string;
 };
 export type PromptVariables__hello_world_2__0_0_1 = never;
+export type PromptVariables__hello_world_2__0_0_2 = never;
+export type PromptVariables__hello_world_2__0_0_3 = {
+  num: number;
+};
 export type PromptVariables__transcript_cleanup__0_0_1 = {
   transcription: string;
 };
@@ -46,6 +47,10 @@ export type PromptVariables__support_chat__0_0_1 = {
 };
 export type PromptVariables__post_writer__0_0_1 = {
   outline: string;
+};
+export type PromptVariables__blue_emoji__0_0_1 = never;
+export type PromptVariables__include_color_emoji__0_0_1 = {
+  color: string;
 };
 export type PromptConfig__hello_world__0_0_1 = {
   models: ['openrouter/auto'];
@@ -79,6 +84,7 @@ export type PromptVersion__hello_world__0_0_2 = {
 };
 export type PromptConfig__hello_world__0_1_1 = {
   models: ['cohere/command-r'];
+  stream: true;
   temperature: number;
 };
 export type PromptVersion__hello_world__0_1_1 = {
@@ -120,12 +126,36 @@ export type PromptVersion__hello_world_2__0_0_1 = {
   variables: PromptVariables__hello_world_2__0_0_1;
   content: string;
 };
+export type PromptConfig__hello_world_2__0_0_2 = {
+  models: ['openrouter/auto'];
+  stream: true;
+  temperature: number;
+};
+export type PromptVersion__hello_world_2__0_0_2 = {
+  version: '0.0.2';
+  config: PromptConfig__hello_world_2__0_0_2;
+  variables: PromptVariables__hello_world_2__0_0_2;
+  content: string;
+};
+export type PromptConfig__hello_world_2__0_0_3 = {
+  models: ['openrouter/auto'];
+  stream: true;
+  temperature: number;
+};
+export type PromptVersion__hello_world_2__0_0_3 = {
+  version: '0.0.3';
+  config: PromptConfig__hello_world_2__0_0_3;
+  variables: PromptVariables__hello_world_2__0_0_3 & PromptVariables__include_color_emoji__0_0_1;
+  content: string;
+};
 export type Prompt__hello_world_2 = {
   name: 'Hello World 2';
   slug: 'hello-world-2';
   versions: {
-    latest: never;
+    latest: PromptVersion__hello_world_2__0_0_2;
     '0.0.1': PromptVersion__hello_world_2__0_0_1;
+    '0.0.2': PromptVersion__hello_world_2__0_0_2;
+    '0.0.3': PromptVersion__hello_world_2__0_0_3;
   };
 };
 export type PromptConfig__transcript_cleanup__0_0_1 = {
@@ -261,6 +291,42 @@ export type Prompt__post_writer = {
     '0.0.1': PromptVersion__post_writer__0_0_1;
   };
 };
+export type PromptConfig__blue_emoji__0_0_1 = {
+  models: ['openrouter/auto'];
+  temperature: number;
+};
+export type PromptVersion__blue_emoji__0_0_1 = {
+  version: '0.0.1';
+  config: PromptConfig__blue_emoji__0_0_1;
+  variables: PromptVariables__blue_emoji__0_0_1;
+  content: string;
+};
+export type Prompt__blue_emoji = {
+  name: 'Blue Emoji';
+  slug: 'blue-emoji';
+  versions: {
+    latest: PromptVersion__blue_emoji__0_0_1;
+    '0.0.1': PromptVersion__blue_emoji__0_0_1;
+  };
+};
+export type PromptConfig__include_color_emoji__0_0_1 = {
+  models: ['openrouter/auto'];
+  temperature: number;
+};
+export type PromptVersion__include_color_emoji__0_0_1 = {
+  version: '0.0.1';
+  config: PromptConfig__include_color_emoji__0_0_1;
+  variables: PromptVariables__include_color_emoji__0_0_1;
+  content: string;
+};
+export type Prompt__include_color_emoji = {
+  name: 'Include Color Emoji';
+  slug: 'include-color-emoji';
+  versions: {
+    latest: PromptVersion__include_color_emoji__0_0_1;
+    '0.0.1': PromptVersion__include_color_emoji__0_0_1;
+  };
+};
 export type Globals = {};
 export type Agency = {
   prompts: {
@@ -272,6 +338,8 @@ export type Agency = {
     'claim-extraction': Prompt__claim_extraction;
     'support-chat': Prompt__support_chat;
     'post-writer': Prompt__post_writer;
+    'blue-emoji': Prompt__blue_emoji;
+    'include-color-emoji': Prompt__include_color_emoji;
   };
   globals: Globals;
 };
