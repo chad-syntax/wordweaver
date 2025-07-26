@@ -1,0 +1,11 @@
+[
+  {
+    "name": "num",
+    "type": "NUMBER",
+    "uuid": "13e854cc-9a42-4f59-8e5c-7eea1c79e7b6",
+    "required": true,
+    "created_at": "2025-07-26T20:04:07.435202+00:00",
+    "updated_at": "2025-07-26T20:04:07.435202+00:00",
+    "default_value": null
+  }
+]
