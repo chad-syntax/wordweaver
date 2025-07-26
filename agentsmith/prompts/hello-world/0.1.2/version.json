@@ -1,0 +1,14 @@
+{
+  "uuid": "81b95615-15bb-42be-864d-473220170f26",
+  "config": {
+    "models": [
+      "cohere/command-r"
+    ],
+    "stream": true,
+    "temperature": 0.8
+  },
+  "status": "PUBLISHED",
+  "version": "0.1.2",
+  "created_at": "2025-07-26T21:45:04.639463+00:00",
+  "updated_at": "2025-07-26T21:45:12.034408+00:00"
+}

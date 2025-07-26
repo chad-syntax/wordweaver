@@ -13,6 +13,7 @@ export type PromptVariables__hello_world__0_0_3 = {
 export type PromptVariables__hello_world__0_0_2 = {
   name: string;
 };
+export type PromptVariables__hello_world__0_1_2 = never;
 export type PromptVariables__hello_world__0_1_0 = {
   firstName: string;
   lastName: string;
@@ -93,6 +94,17 @@ export type PromptVersion__hello_world__0_0_2 = {
   variables: PromptVariables__hello_world__0_0_2;
   content: string;
 };
+export type PromptConfig__hello_world__0_1_2 = {
+  models: ['cohere/command-r'];
+  stream: true;
+  temperature: number;
+};
+export type PromptVersion__hello_world__0_1_2 = {
+  version: '0.1.2';
+  config: PromptConfig__hello_world__0_1_2;
+  variables: PromptVariables__hello_world__0_1_2;
+  content: string;
+};
 export type PromptConfig__hello_world__0_1_0 = {
   models: ['mistralai/ministral-3b'];
   temperature: number;
@@ -107,11 +119,12 @@ export type Prompt__hello_world = {
   name: 'Hello World';
   slug: 'hello-world';
   versions: {
-    latest: PromptVersion__hello_world__0_1_1;
+    latest: PromptVersion__hello_world__0_1_2;
     '0.0.1': PromptVersion__hello_world__0_0_1;
     '0.1.1': PromptVersion__hello_world__0_1_1;
     '0.0.3': PromptVersion__hello_world__0_0_3;
     '0.0.2': PromptVersion__hello_world__0_0_2;
+    '0.1.2': PromptVersion__hello_world__0_1_2;
     '0.1.0': PromptVersion__hello_world__0_1_0;
   };
 };
